@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Proyecto Final Programacion Web </title>
+    <link rel="stylesheet" href="estructura.css">
+</head>
+<body>
+
+    <!-- 
+      Mensajes
+    -->
+    <div id="barra-superior">
+        <div id="Cartel">DISFRUTE</div>
+        <div id="Saludo">Restaurante Tradicional ¡Bienvenido!</div>
+        <div id="expresion" title="Menu">ÑAM</div>
+    </div>
+
+    <!-- Banner con nombre del restaurante -->
+    <div id="banner-aviso">
+        <h1>Tradición Hogareña</h1>
+        <p>Tradición y sabor en cada bocado</p>
+    </div>
+
+    <!-- Menu de navegación -->
+    <div id="barra-pestanas">
+        <a href="#inicio">INICIO</a>
+        <a href="#desayunos">DESAYUNOS</a>
+        <a href="#comidas">COMIDAS</a>
+        <a href="#bebidas">BEBIDAS</a>
+        <a href="#postres">POSTRES</a>
+        <a href="#paquetes">PAQUETES</a>
+        <a href="#galeria">GALERÍA</a>
+        <a href="#promociones">PROMOCIONES</a>
+    </div>
+
+    <hr>
+
+    <div id="contenido-principal">
+        
+        <!-- 
+           Información detallada de los menus y secciones.
+        -->
+        <div id="cuadro-bienvenida">
+
+            <!-- Seccio de Menu Principal -->
+            <section id="inicio" class="seccion-contenido">
+                <h2>Bienvenido a Tradición Hogareña</h2>
+                <p>En Tradición Hogareña nos dedicamos a traer los mejores platillos tradicionales a tu mesa, 
+                    utilizando ingredientes frescos y recetas tipicas para garantizar una experiencia inolvidable. 
+                    ¡Disfruta de nuestros desayunos y comidas!</p>
+            </section>
+
+            <!-- Sección de desayunos -->
+            <section id="desayunos" class="seccion-contenido">
+                <h2>Menú de desayunos (8 am a 12:59 pm)</h2>
+                <p>Nuestros platillos preparados al momento.</p>
+
+                <!-- Platillo 1: Huevos a la Mexicana -->
+                <div class="menu-item">
+                    <img src="imagenes/huevos-a-la-mexicana-1.jpg" alt="Huevos a la Mexicana">
+                    <div class="menu-info">
+                        <h3>Huevos a la Mexicana </h3>
+                        <p>Un platillo tradicional, lleno de color y sabor. Huevos revueltos con jitomate, cebolla y chile serrano.</p>
+                        <p><strong>Calorías:</strong> 337 kcal | <strong>Proteínas:</strong> 15.3g</p>
+                        
+                        <!-- Tabla de precios y medidas-->
+                        <table class="tabla-precios">
+                            <tr>
+                                <th>Chico</th>
+                                <th>Mediano</th>
+                                <th>Grande</th>
+                            </tr>
+                            <tr>
+                                <td>$50.00</td>
+                                <td>$80.00</td>
+                                <td>$100.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Platillo 2: Chilaquiles Verdes -->
+                <div class="menu-item">
+                    <img src="imagenes/207-chilaquiles-verdes.jpg" alt="Chilaquiles Verdes">
+                    <div class="menu-info">
+                        <h3>Chilaquiles Verdes </h3>
+                        <p>Totopos de maíz bañados en salsa verde, con crema, queso y cebolla. Un clásico desayuno mexicano.</p>
+                        <p><strong>Calorías:</strong> 1345 kcal | <strong>Grasas:</strong> 79g</p>
+                        
+                        <table class="tabla-precios">
+                            <tr>
+                                <th>Chico</th>
+                                <th>Mediano</th>
+                                <th>Grande</th>
+                            </tr>
+                            <tr>
+                                <td>$65.00</td>
+                                <td>$90.00</td>
+                                <td>$110.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Platillo 3: Molletes con Pico de Gallo -->
+                <div class="menu-item">
+                    <img src="imagenes/molletes.jpg" alt="Molletes">
+                    <div class="menu-info">
+                        <h3>Molletes con Pico de Gallo </h3>
+                        <p>Bolillo tostado con frijoles refritos y queso manchego gratinado, acompañado de pico de gallo fresco.</p>
+                        <p><strong>Calorías:</strong> 572 kcal | <strong>Carbohidratos:</strong> 61g</p>
+                        
+                        <table class="tabla-precios">
+                            <tr>
+                                <th>Orden de 2 pzas</th>
+                                <th>Orden de 4 pzas</th>
+                                <th>Queso extra</th>
+                            </tr>
+                            <tr>
+                                <td>$35.00</td>
+                                <td>$55.00</td>
+                                <td>+$10.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Platillo 4: Enchiladas de Mole -->
+                <div class="menu-item">
+                    <img src="imagenes/enmoladas.png" alt="Enchiladas de Mole">
+                    <div class="menu-info">
+                        <h3>Enchiladas de Mole (Enmoladas) </h3>
+                        <p>Tortillas rellenas de pollo deshebrado, bañadas en auténtico mole poblano, con crema, queso y ajonjolí.</p>
+                        <p><strong>Calorías:</strong> 826 kcal | <strong>Proteínas:</strong> 45g</p>
+                        
+                        <table class="tabla-precios">
+                            <tr>
+                                <th>Chico (3 pzas)</th>
+                                <th>Mediano (4 pzas)</th>
+                                <th>Grande (6 pzas)</th>
+                            </tr>
+                            <tr>
+                                <td>$80.00</td>
+                                <td>$95.00</td>
+                                <td>$120.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Platillo 5: Fruta picada -->
+                <div class="menu-item">
+                    <img src="imagenes/platofruta.png" alt="Fruta picada">
+                    <div class="menu-info">
+                        <h3>Plato de fruta </h3>
+                        <p>Plato de fruta picada que incluye melon, papaya y platano, con granola y miel.</p>
+                        <p><strong>Calorías:</strong> 420 kcal 
+                        
+                        <table class="tabla-precios">
+                            <tr>
+                                <th>Chico</th>
+                                <th>Grande</th>
+                                <th>Con Yogurt</th>
+                            </tr>
+                            <tr>
+                                <td>$35.00</td>
+                                <td>$55.00</td>
+                                <td>$10.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section id="comidas" class="seccion-contenido">
+                <h2>Menú de comidas (1 pm a la hora de cierre)</h2>
+                <p>Nuestros platillos preparados al momento.</p>
+
+                <!-- Platillo 1: Hamburguesa de arrachera acompañada de papas a la francesa-->
+                <div class="menu-item">
+                    <img src="imagenes/hamburguesa.jpg" alt="Hamburguesa de arrachera">
+                    <div class="menu-info">
+                        <h3>Hamburguesa de arrachera acompañada de papas a la francesa </h3>
+                        <p>Hamburguesa de panes brioche untados con mayonesa, integrada por un corte de arrachera jugosa, lechuga, jitomate, cebolla y queso.
+                            Acompañada de crujientes papas a la francesa.
+                        </p>
+                        <p><strong>Calorías:</strong> 1150 kcal | <strong>Proteínas:</strong> 55g</p>
+                        
+                        <!-- Tabla de precios y medidas-->
+                        <table class="tabla-precios">
+                            <tr>
+                                <th>Costo</th>
+                            </tr>
+                            <tr>
+                                <td>$250.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Platillo 2: Enchiladas suizas-->
+                <div class="menu-item">
+                    <img src="imagenes/enchiladasSuizas.webp" alt="Enchiladas suizas">
+                    <div class="menu-info">
+                        <h3>Enchiladas suizas </h3>
+                        <p>Tortillas de maiz rellenas de pollo deshebrado, bañadas con una cremosa salsa verde de tomate, cubiertas generosamente
+                             de queso manchego y crema.
+                        </p>
+                        <p><strong>Calorías:</strong> 850 kcal | <strong>Proteínas:</strong> 50g</p>
+                        
+                        <!-- Tabla de precios y medidas-->
+                        <table class="tabla-precios">
+                            <tr>
+                                <th>Chico (3 pzas)</th>
+                                <th>Mediano (4 pzas)</th>
+                                <th>Grande (6 pzas)</th>
+                            </tr>
+                            <tr>
+                                <td>$80.00</td>
+                                <td>$95.00</td>
+                                <td>$120.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Platillo 3: Alambre-->
+                <div class="menu-item">
+                    <img src="imagenes/alambre.jpg" alt="Alambre">
+                    <div class="menu-info">
+                        <h3>Alambre </h3>
+                        <p>Mezcla de bistec, tocino, tiras de pimiento morrón y cebolla, todo cocinado en el sarten hasta un termino dorado,
+                            cubierto de una capa de queso manchego acompañado de tortillas ya sean de maiz o harina.
+                        </p>
+                        <p><strong>Calorías:</strong> 700 kcal | <strong>Proteínas:</strong> 55g</p>
+                        
+                        <!-- Tabla de precios y medidas-->
+                        <table class="tabla-precios">
+                            <tr>
+                                <th>Chico </th>
+                                <th>Mediano </th>
+                                <th>Grande </th>
+                            </tr>
+                            <tr>
+                                <td>$90.00</td>
+                                <td>$120.00</td>
+                                <td>$150.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Platillo 4: Sopa azteca-->
+                <div class="menu-item">
+                    <img src="imagenes/sopaAzteca.png" alt="Sopa azteca">
+                    <div class="menu-info">
+                        <h3>Sopa azteca </h3>
+                        <p>Deliciosa sopa hecha a base de caldo de jitomate, chile pasilla, con crujientes tiras de tortilla de maiz fritas, 
+                            acompañadas de queso panela, aguacate y un poco de crema.
+                        </p>
+                        <p><strong>Calorías:</strong> 450 kcal | <strong>Proteínas:</strong> 20g</p>
+                        
+                        <!-- Tabla de precios y medidas-->
+                        <table class="tabla-precios">
+                            <tr>
+                                <th>Chico </th>
+                                <th>Grande </th>
+                            </tr>
+                            <tr>
+                                <td>$35.00</td>
+                                <td>$60.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!-- Sección de bebidas -->
+            <section id="bebidas" class="seccion-contenido">
+                <h2>Bebidas</h2>
+                <ul>
+                    <li><strong>Café de Olla:</strong> $30.00</li>
+                    <li><strong>Jugo de Naranja Natural:</strong> $30.00</li>
+                    <li><strong>Aguas Frescas (Horchata/Jamaica):</strong> $25.00 (Medio) / $40.00 (Litro)</li>
+                    <li><strong>Refrescos:</strong> $25.00</li>
+                </ul>
+            </section>
+
+            <!-- Sección de postres -->
+            <section id="postres" class="seccion-contenido">
+                <h2>Postres</h2>
+                <div class="menu-item">
+                    <img src="imagenes/flan.jpg" alt="Flan Napolitano">
+                    <div class="menu-info">
+                        <h3>Flan Napolitano</h3>
+                        <p>Cremoso flan con caramelo casero.</p>
+                        <p><strong>Precio:</strong> $40.00</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="imagenes/arrozLeche.png" alt="Arroz con leche">
+                    <div class="menu-info">
+                        <h3>Arroz con Leche</h3>
+                        <p>Con un toque de canela y pasas.</p>
+                        <p><strong>Precio:</strong> $35.00</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de paquetes -->
+            <section id="paquetes" class="seccion-contenido">
+                <h2>Paquetes</h2>
+                <div class="cupon" style="background-color: #e3f2fd; border-color: #2196f3;">
+                    <h3>Paquete Desayuno Completo</h3>
+                    <p>Chilaquiles medianos + Jugo o fruta(chico) + Café</p>
+                    <p><strong>Por solo $130.00</strong></p>
+                </div>
+                <div class="cupon" style="background-color: #e3f2fd; border-color: #2196f3;">
+                    <h3>Paquete Almuerzo</h3>
+                    <p>Enmoladas medianas + Agua Fresca de medio + Postre</p>
+                    <p><strong>Por solo $140.00</strong></p>
+                </div>
+            </section>
+
+            <!-- Sección de imagenes -->
+            <section id="galeria" class="seccion-contenido">
+                <h2>Galería</h2>
+                <div class="galeria-grid">
+                    <div class="galeria-item"><img src="imagenes/restaurante.jpg" alt="Restaurante Interior"></div>
+                    <div class="galeria-item"><img src="imagenes/clientes.png" alt="Clientes "></div>
+                    <div class="galeria-item"><img src="imagenes/Vaso_agua_de_jamaica.jpg" alt="Bebida"></div>
+                    <div class="galeria-item"><img src="imagenes/platillodelDia.png" alt="Platillo del dia"></div>
+                </div>
+            </section>
+
+            <!-- Sección de promociones -->
+            <section id="promociones" class="seccion-contenido">
+                <h2>Promociones y Cupones</h2>
+                <div class="cupon">
+                    <h3>¡MARTES DE 2x1!</h3>
+                    <p>En todas las Enchiladas de Mole.</p>
+                    <small>Válido solo en ordenes medianas o grandes.</small>
+                </div>
+                <div class="cupon">
+                    <h3>CUPÓN: DESAYUNO10</h3>
+                    <p>10% de descuento en tu cuenta total antes de las 10:00 AM.</p>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- 
+          Barra lateral
+          Información adicional, contacto rápido u horarios.
+        -->
+        <div id="barra-apariencia">
+            <h3>Horarios de Atención</h3>
+            <p>Martes a Jueves: 8:00 AM - 4:00 PM</p>
+            <p>Viernes a Domingos: 8:00 AM - 5:00 PM</p>
+            
+            <hr style="background-color: white;">
+            
+            <h3>Ubicación</h3>
+            <p>Primavera 107, Ángel Zimbrón, Miguel Hidalgo, 02099 Ciudad de México, CDMX</p>
+            
+            <hr style="background-color: white;">
+            
+            <h3>Reservaciones</h3>
+            <p>Tel: 55 34 45 38 64</p>
+            
+            <br>
+            <div style="background-color: rgba(255,255,255,0.2); padding: 10px; border-radius: 5px;">
+                <strong>Platillo del Día:</strong><br>
+                Chilaquiles Verdes con Pollo o bistec y huevo
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 
+      Pie de pagina
+    -->
+    <div id="pie-de-pagina">
+        <p>
+            <strong>Nombre:</strong> Maximilian<br>
+            <strong>Materia:</strong> Programación Web 1 <br>
+            <strong>Semestre:</strong> 5<br>
+            <strong>Profesor:</strong> Candelario <br>
+            <strong>Proyecto:</strong> Página Web para un Restaurante <br>
+            
+        </p>
+    </div>
+
+</body>
+</html>
